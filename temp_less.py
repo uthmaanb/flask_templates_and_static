@@ -8,6 +8,16 @@ def hello_world():
     return render_template('homepage.html')
 
 
+@app.route('/hello_loop')
+def hello_loop():
+    return render_template('the_loop.html')
+
+
+@app.route('/hello_pic')
+def hello_pic():
+    return render_template('pic.html')
+
+
 @app.route('/', methods=['POST'])
 def render():
     names = ('uthmaan', 'malik', 'abdul', 'zaid', 'cassiem', 'aaliyah')
