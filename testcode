@@ -1,0 +1,9 @@
+processed_text = text.upper()
+
+<!--<a href="{{ url_for('render', name=) }}">log</a>-->
+
+<!--{% if name == 'uthmaan' %}-->
+<!--<p>you are an admin</p>-->
+<!--{% else %}-->
+<!--<p>you are a normal user</p>-->
+<!--{% endif %}-->
